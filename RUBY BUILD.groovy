@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'ruby' } }
+    agent { master { image 'ruby' } }
     stages {
         stage('build') {
             steps {
