@@ -9,7 +9,7 @@ pipeline {
                     ls -lah
                 '''
                  build job: 'Jenkins Build Job Tutorial'
-            }'
+            }
             }
         }
     }
