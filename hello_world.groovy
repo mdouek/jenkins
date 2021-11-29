@@ -10,5 +10,9 @@ pipeline {
                 '''
             }
         }
+       stage('Trigger Build') {
+            steps {
+                build job: 'Jenkins Build Job Tutorial'
+            } 
     }
 } 
