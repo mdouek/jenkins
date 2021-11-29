@@ -8,9 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                 build job: 'Jenkins Build Job Tutorial'
-            }
             }
         }
     }
-}
+} 
