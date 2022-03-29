@@ -27,6 +27,7 @@ parameters {
             steps {
                 script {
                    echo backToNormalDuration()
+                    echo params.branch
                     }
             }
         }
