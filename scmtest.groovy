@@ -18,7 +18,8 @@ pipeline {
     agent any
 
 parameters {
-  gitParameter branch: '', branchFilter: '.*', defaultValue: '', name: 'branch', quickFilterEnabled: true, selectedValue: 'NONE', sortMode: 'NONE', tagFilter: '*', type: 'GitParameterDefinition', useRepository: 'https://github.com/mdouek/smokeping.git'
+  gitParameter branch: '', branchFilter: '.*', defaultValue: '', name: 'branch', quickFilterEnabled: true, selectedValue: 'NONE', sortMode: 'NONE', tagFilter: '*', type: 'GitParameterDefinition'
+  gitParameter branch: '', branchFilter: '.*', defaultValue: '', name: 'branch', quickFilterEnabled: true, selectedValue: 'NONE', sortMode: 'NONE', tagFilter: '*', type: 'GitParameterDefinition'
 }
 
     stages {
